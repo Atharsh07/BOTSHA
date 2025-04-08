@@ -1,12 +1,20 @@
 import './App.css'
+import NavBar from "./components/NavBar.jsx";
+import Hero from "./components/Hero.jsx";
+import Events from "./components/Event.jsx";
+import Sponsors from "./components/Sponsors.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
     return (
-        <div>
-            <h1 className="text-4xl text-blue-500">hi there</h1>
-
+        <div className="min-h-screen bg-body-gradient text-white">
+            <NavBar />
+            <Hero />
+            <Events />
+            <Sponsors />
+            <Footer />
         </div>
-    )
-}
+    );
+};
 
 export default App;
