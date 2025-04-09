@@ -4,25 +4,25 @@ import { motion } from 'framer-motion';
 const Footer = () => {
   const contactPersons = [
     {
-      name: 'John Doe',
-      phone: '+91 9876543210',
+      name: 'Prasanth N',
+      phone: '+91 91594 26102',
       email: 'john@example.com',
     },
     {
-      name: 'Jane Smith',
+      name: 'Aashique A S',
       phone: '+91 8765432109',
       email: 'jane@example.com',
     },
     {
-      name: 'Alice Johnson',
-      phone: '+91 7654321098',
+      name: 'Barath kumar',
+      phone: '+91 89257 03208',
       email: 'alice@example.com',
     },
   ];
 
   const insta = {
-    label: '@botsha_event',
-    href: 'https://instagram.com/botsha_event',
+    label: '@rec.botsha',
+    href: 'https://www.instagram.com/rec.botsha?igsh=MWdobzk4dzJwanBzaw==',
   };
 
   const deptEmail = {
@@ -84,12 +84,6 @@ const Footer = () => {
                       📞{' '}
                       <a href={`tel:${person.phone}`} className="hover:text-cyan-300">
                         {person.phone}
-                      </a>
-                    </p>
-                    <p>
-                      ✉️{' '}
-                      <a href={`mailto:${person.email}`} className="hover:text-cyan-300">
-                        {person.email}
                       </a>
                     </p>
                   </li>

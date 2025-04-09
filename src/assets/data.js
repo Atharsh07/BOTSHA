@@ -19,63 +19,63 @@ export const data = [
         description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
-        date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        image:codenascar,
+        title: "Code Nascar",
+        date: "Thu, Apr 17, 10:30 AM IST",
+        description: "Speed meets syntax! Race through code checkpoints and reach the finish line—bug free (hopefully).CodeNascar is an exhilarating coding competition that puts your problem-solving and algorithmic thinking to the ultimate test. Designed for speed and precision, this event challenges participants to push their programming skills into high gear."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
-        date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        image:paperpresentation,
+        title: "Paper Presentation",
+        date: "Thu, Apr 17, 10:30 AM IST",
+        description: "Pitch your brilliant ideas, impress the jury, and prove that your research can rule the robotics world"
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
+        image: quiz,
+        title: "Mind Quest",
         date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        description: "Mind Quest is the ultimate test of logic, creativity, and quick thinking. Dive into a series of intense mental challenges that push your problem-solving skills to the edge."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
+        image:verbal,
+        title: "Verbal Warfare",
         date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        description: "Drop the mic — or don’t. Debate your heart out and let your arguments do the punching."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
-        date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        image:biddingwars,
+        title: "Bidding Wars",
+        date: "Thu, Apr 17, 10:30 AM IST",
+        description: "Step into the world of global dynamics with Bidding Wars, a quiz that challenges your knowledge of international economies, industries, and resource distribution."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
-        date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        image:connectingdots,
+        title: "Connecting Dots",
+        date: "Thu, Apr 17, 10:30 AM IST",
+        description: "Connecting Dots is a thrilling and comically suspenseful event where participants become detectives for a day. Step into a world of mystery as you analyze tricky clues,It’s a fun mix of logic, laughter, and light-hearted drama."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
-        date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        image:tecktrek,
+        title: "Tech Trek",
+        date: "Thu, Apr 17, 10:30 AM IST",
+        description: "where adventure meets technology! Step into a world filled with cryptic codes, digital riddles, and hidden secrets waiting to be uncovered."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
+        image:soccer,
+        title: "Scccer Bot",
         date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        description: "Soccer Bot is a high-energy competitive event where teams face off in a league-style tournament using remote-controlled robots to play soccer."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
+        image:sky,
+        title: "Sky Surge",
         date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        description: "SkySurge is a cutting-edge simulation competition designed to test and enhance participants' piloting skills in a virtual environment."
     },
     {
-        image:cadscape,
-        title: "CADSCAPE",
-        date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Put your engineering skills to the test in the SolidWorks Design Challenge! This competition invites students to showcase their creativity and technical expertise using SolidWorks, the industry-leading 3D CAD."
+        image:mr_ms_botshare,
+        title: "Mr./Ms. Botsha",
+        date: "Thu, Apr 17, 11:30 AM IST",
+        description: "Mr/Ms.Botsha is an exciting and competitive event where participants must demonstrate their creativity, spontaneity, and performance skills across 3 to 4 challenging rounds such as spin a yarn, channel surfing, shipwreck."
     }
 ]

@@ -1,7 +1,7 @@
 import sponsor1  from "./v tech industries logo.png"
-import sponsor2  from "./v tech industries logo.png"
-import sponsor3  from "./v tech industries logo.png"
-import sponsor4  from "./v tech industries logo.png"
+import sponsor2  from "./sun graphics.png"
+import sponsor3  from "./D99-Icon-Only-Final.png"
+import sponsor4  from "./able industries.png"
 
 const sponsorData = [
     {
