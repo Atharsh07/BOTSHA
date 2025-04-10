@@ -9,7 +9,7 @@ import sky from "./sky surge.png"
 import soccer from "./soccer bot.png"
 import tecktrek from "./tech trek.png"
 import verbal from "./verbal warfare.png"
-
+import workshop from "./workshop.png"
 
 export const data = [
     {
@@ -77,5 +77,11 @@ export const data = [
         title: "Mr./Ms. Botsha",
         date: "Thu, Apr 17, 11:30 AM IST",
         description: "Mr/Ms.Botsha is an exciting and competitive event where participants must demonstrate their creativity, spontaneity, and performance skills across 3 to 4 challenging rounds such as spin a yarn, channel surfing, shipwreck."
+    },
+    {
+        image:workshop,
+        title: "Workshop",
+        date: "Thu, Apr 17, 10:00 AM IST",
+        description: "Join us for a hands-on workshop where you'll learn the basics of coding and robotics."
     }
 ]
