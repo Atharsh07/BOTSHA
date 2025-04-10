@@ -51,7 +51,8 @@ const Sponsors = () => {
                         <img
                             src={sponsor.logo}
                             alt={sponsor.name}
-                            className="w-32 h-auto object-contain grayscale hover:grayscale-0 transition duration-300"
+                            loading="lazy"
+                            className="w-32 h-auto object-contain  hover:grayscale-0 transition duration-300"
                         />
                     </motion.a>
                 ))}

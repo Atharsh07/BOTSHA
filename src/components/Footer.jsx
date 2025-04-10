@@ -34,17 +34,17 @@ const Footer = () => {
       <motion.footer
           id="Contact"
           className="bg-gray-900 text-white py-10 px-6 md:px-20"
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: "0px 0px -100px 0px" }}
+          transition={{ duration: 0.4 }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Left Side - Insta + Mail */}
           <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
               viewport={{ once: true }}
           >
             <h3 className="text-lg font-bold mb-4 text-cyan-400">Reach Us</h3>
@@ -70,9 +70,9 @@ const Footer = () => {
 
           {/* Right Side - Contact Persons */}
           <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: 0.1 }}
               viewport={{ once: true }}
           >
             <h3 className="text-lg font-bold mb-4 text-cyan-400">Contact Persons</h3>

@@ -7,6 +7,7 @@ import Sponsors from './components/Sponsors';
 import Footer from './components/Footer';
 import RobotLoader from './components/RobotLoader';
 import ErrorBoundary from './components/ErrorBoundary';
+import ThreeBackground from './components/ThreeBackground';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +22,8 @@ function App() {
 
   return (
     <Router>
-      <div className="bg-gray-950 min-h-screen text-white">
+      <div className="bg-body-gradient min-h-screen text-white relative">
+        <ThreeBackground />
         {isLoading ? (
           <RobotLoader />
         ) : (

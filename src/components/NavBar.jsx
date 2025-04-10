@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {HiMenu, HiX} from "react-icons/hi";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
     const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -12,6 +13,12 @@ const NavBar = () => {
     ]
     return (
         <nav className='fixed top-0 left-0 right-0 md:left-40 md:right-40 bg-container-gradient backdrop-blur-sm z-50 border-b border-gray-100'>
+            <style jsx="true">{`
+                @keyframes menu-enter {
+                    from { transform: scale(0.95); opacity: 0; }
+                    to { transform: scale(1); opacity: 1; }
+                }
+            `}</style>
 
             <div className='container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 md:h-20'>
                 <div className="flex items-center gap-2 cursor-pointer">
@@ -50,15 +57,22 @@ const NavBar = () => {
             </div>
 
             {isOpenMenu && (
-                <div className="md:hidden relative bg-container-gradient border-t border-gray-200 py-6 animate-fade-in-down">
+                <motion.div 
+                    initial={{ opacity: 0, backdropFilter: 'blur(0px)' }}
+                    animate={{ opacity: 1, backdropFilter: 'blur(8px)' }}
+                    exit={{ opacity: 0, backdropFilter: 'blur(0px)' }}
+                    transition={{ duration: 0.3 }}
+                    className="md:hidden fixed inset-0 flex items-center justify-center bg-gray-900/70 z-50"
+                    style={{ transform: 'translate(-50%, -20%)', top: '450%', left: '50%', width: '70%' }}
+                >
 
-
-                    <div className="absolute top-2 left-4 flex items-center space-x-2 animate-bounce">
-                        <span className="text-2xl">👽</span>
-                        <span className="text-white text-sm font-bold tracking-wide"></span>
-                    </div>
-
-                    <div className="flex flex-col items-center space-y-4 px-6 mt-8">
+                    <motion.div 
+                        initial={{ scale: 0.9, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        exit={{ scale: 0.9, opacity: 0 }}
+                        transition={{ type: 'spring', damping: 20, stiffness: 300 }}
+                        className="flex flex-col items-center justify-center space-y-8 px-8 py-12 bg-gray-800/90 rounded-2xl border border-cyan-400/30 w-[150%] max-w-md mx-auto my-auto text-center"
+                    >
                         {navLinks.map((link, index) => (
                             <a
                                 onClick={() => {
@@ -67,7 +81,7 @@ const NavBar = () => {
                                 }}
                                 key={index}
                                 href={link.href}
-                                className={`text-base font-semibold transition-all duration-300 ease-in-out transform hover:scale-105 ${
+                                className={`text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-110 ${
                                     activeLink === link.href
                                         ? "text-cyan-400 underline underline-offset-4"
                                         : "text-white hover:text-cyan-300"
@@ -79,13 +93,13 @@ const NavBar = () => {
 
                         <a
                             href="#Event"
-                            onClick={() => setIsOpenMenu(false)} // 👈 This line closes the menu
-                            className="px-6 py-2 border border-cyan-400 text-cyan-400 font-semibold rounded-xl transition-all duration-300 ease-in-out hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_15px_#22d3ee] hover:scale-105"
+                            onClick={() => setIsOpenMenu(false)}
+                            className="mt-4 px-8 py-3 border-2 border-cyan-400 text-cyan-400 font-semibold rounded-xl transition-all duration-300 ease-in-out hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_15px_#22d3ee] hover:scale-105 text-center w-[80%]"
                         >
                             EVENTS
                         </a>
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
             )}
         </nav>
     );
