@@ -56,7 +56,7 @@ export const data = [
     },
     {
         image:tecktrek,
-        title: "Tech Trek",
+        title: "Tech Odyssey",
         date: "Thu, Apr 17, 10:30 AM IST",
         description: "where adventure meets technology! Step into a world filled with cryptic codes, digital riddles, and hidden secrets waiting to be uncovered."
     },
