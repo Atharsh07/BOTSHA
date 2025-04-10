@@ -42,7 +42,7 @@ export default function CountdownCard() {
         animate={{ opacity: [0.8, 1, 0.8] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
-        TECH REVOLUTION IN PROGRESS
+        COUNTDOWN TO IGNITION
       </motion.h2>
 
       <div className="grid grid-cols-4 gap-1 md:gap-4 text-center">
