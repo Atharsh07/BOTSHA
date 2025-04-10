@@ -26,7 +26,7 @@ const Footer = () => {
   };
 
   const deptEmail = {
-    label: 'botsha@dept.edu',
+    label: 'trsrec@rajalakshmi.edu.in',
     href: 'mailto:trsrec@rajalakshmi.edu.in',
   };
 
