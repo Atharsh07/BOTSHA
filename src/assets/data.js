@@ -82,6 +82,6 @@ export const data = [
         image:workshop,
         title: "Workshop",
         date: "Thu, Apr 17, 10:00 AM IST",
-        description: "Join us for a hands-on workshop where you'll learn the basics of coding and robotics."
+        description: "An engaging session where you’ll learn professional editing techniques from the industry expert. Explore creative tools and discover how to turn your editing skills into a source of income."
     }
 ]
