@@ -55,14 +55,8 @@ export const data = [
         description: "Connecting Dots is a thrilling and comically suspenseful event where participants become detectives for a day. Step into a world of mystery as you analyze tricky clues,It’s a fun mix of logic, laughter, and light-hearted drama."
     },
     {
-        image:tecktrek,
-        title: "Tech Odyssey",
-        date: "Thu, Apr 17, 10:30 AM IST",
-        description: "where adventure meets technology! Step into a world filled with cryptic codes, digital riddles, and hidden secrets waiting to be uncovered."
-    },
-    {
         image:soccer,
-        title: "Scccer Bot",
+        title: "Soccer Bot",
         date: "Thu, Apr 17, 11:00 AM IST",
         description: "Soccer Bot is a high-energy competitive event where teams face off in a league-style tournament using remote-controlled robots to play soccer."
     },
