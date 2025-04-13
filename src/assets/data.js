@@ -40,7 +40,7 @@ export const data = [
         image:verbal,
         title: "Verbal Warfare",
         date: "Thu, Apr 17, 11:00 AM IST",
-        description: "Drop the mic — or don’t. Debate your heart out and let your arguments do the punching."
+        description: "Brace yourself for chaos and charisma! Outsmart the storm in Shipwreck, then strategize and sway in Block & Tackle. It's not just talk—it's tactical warfare."
     },
     {
         image:biddingwars,
