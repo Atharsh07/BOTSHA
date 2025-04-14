@@ -79,7 +79,8 @@ const Events = () => {
                                     title={event.title}
                                     location={event.location}
                                     date={event.date}
-                                    description={event.description} />
+                                    description={event.description}
+                                    moreDetail={event.moreDetail}/>
                             </Suspense>
                         </motion.div>
                     ))}

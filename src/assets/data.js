@@ -28,7 +28,18 @@ export const data = [
         image:paperpresentation,
         title: "Paper Presentation",
         date: "Thu, Apr 17, 10:30 AM IST",
-        description: "Pitch your brilliant ideas, impress the jury, and prove that your research can rule the robotics world"
+        description: "Pitch your brilliant ideas, impress the jury, and prove that your research can rule the robotics world",
+        moreDetail: "Themes :\n" +
+            "\n" +
+            " domains:\n" +
+            "1) Data Science and cloud Computing\n" +
+            "2) Robotics Systems\n" +
+            "3) Embedded systems and Iot Cybersecurity \n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "Submit your abstract/presentation to : \n" +
+            " botsha25paperpresentation@gmail.com "
     },
     {
         image: quiz,

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { CalendarDays, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const EventCard = ({ image, title, location, date, description }) => {
+const EventCard = ({ image, title, location, date, description, moreDetail }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
@@ -41,6 +41,19 @@ const EventCard = ({ image, title, location, date, description }) => {
                             transition={{ duration: 0.4 }}
                         >
                             {description}
+                        </motion.p>
+                    )}
+                </AnimatePresence>
+                <AnimatePresence>
+                    {isExpanded && (
+                        <motion.p
+                            className="text-sm text-gray-300 leading-relaxed"
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: 0.4 }}
+                        >
+                            {moreDetail}
                         </motion.p>
                     )}
                 </AnimatePresence>
