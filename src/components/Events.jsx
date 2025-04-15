@@ -29,7 +29,7 @@ const Events = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
         >
             <motion.h2
-                className="text-3xl md:text-4xl font-shuriken text-cyan-400 text-center mb-10 drop-shadow-[0_0_10px_#22d3ee]"
+                className="text-3xl md:text-4xl font-shuriken text-cyan-400 text-center w-full mx-auto mb-10 drop-shadow-[0_0_10px_#22d3ee]"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
@@ -80,7 +80,8 @@ const Events = () => {
                                     location={event.location}
                                     date={event.date}
                                     description={event.description}
-                                    moreDetail={event.moreDetail}/>
+                                    moreDetail={event.moreDetail}
+                                    instagramLink={event.instagramLink}/>
                             </Suspense>
                         </motion.div>
                     ))}
