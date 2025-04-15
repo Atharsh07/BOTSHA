@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { CalendarDays, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const EventCard = ({ image, title, location, date, description, moreDetail }) => {
+const EventCard = ({ image, title,  date, description, moreDetail }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
@@ -21,10 +21,6 @@ const EventCard = ({ image, title, location, date, description, moreDetail }) =>
             <div className="px-4 py-3 text-center">
                 <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
 
-                <div className="flex items-center justify-center text-sm text-cyan-300 mb-1">
-                    <MapPin className="w-4 h-4 mr-1" />
-                    {location}
-                </div>
 
                 <div className="flex items-center justify-center text-sm text-cyan-300 mb-2">
                     <CalendarDays className="w-4 h-4 mr-1" />
