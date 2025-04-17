@@ -36,6 +36,8 @@ const Events = () => {
             >
                 EVENTS 🚀
             </motion.h2>
+            <motion.h3 className="">
+            </motion.h3>
 
             <motion.div
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center"

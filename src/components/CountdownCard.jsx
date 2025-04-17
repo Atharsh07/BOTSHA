@@ -11,7 +11,7 @@ export default function CountdownCard() {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const targetDate = new Date('April 17, 2025 23:59:59').getTime();
+      const targetDate = new Date('April 17, 2026 12:00:00').getTime();
       const now = new Date().getTime();
       const difference = targetDate - now;
 
